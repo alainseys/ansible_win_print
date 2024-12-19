@@ -34,10 +34,10 @@ Example Playbook with all variables:
     ---
     - name: "Install Printer port"
         add_print_port:
-        port_address: "10.54.10.100"
-        port_name: CEO_Printer
-        snmp: public3
-        state: present
+          port_address: "10.54.10.100"
+          port_name: CEO_Printer
+          snmp: public3
+          state: present
 
     - name: "Install Printer port"
       install_printer:
